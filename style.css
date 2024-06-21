@@ -1,0 +1,143 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #2c3e50; /* Color de fondo principal */
+    color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+th:nth-child(1), td:nth-child(1) {
+    width: 10%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 30%;
+}
+
+th:nth-child(3), td:nth-child(3),
+th:nth-child(4), td:nth-child(4),
+th:nth-child(5), td:nth-child(5),
+th:nth-child(6), td:nth-child(6),
+th:nth-child(7), td:nth-child(7),
+th:nth-child(8), td:nth-child(8) {
+    width: 7.5%;
+}
+
+th:nth-child(9), td:nth-child(9),
+th:nth-child(10), td:nth-child(10) {
+    width: 10%;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ecf0f1; /* Color de fondo para filas pares */
+}
+
+tfoot {
+    font-weight: bold;
+    background-color: #2c3e50; /* Color de fondo para el pie de tabla */
+    color: #fff;
+}
+
+.diferencia-goles {
+    font-weight: bold;
+    color: #3498db; /* Color para diferencia de goles */
+}
+
+.puntos {
+    font-weight: bold;
+    color: #27ae60; /* Color para puntos */
+}
+
+/* Estilos adicionales para un diseño temático de fútbol */
+
+.container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+table {
+    background-color: #fff;
+    border: 2px solid #2c3e50; /* Borde principal de la tabla */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase; /* Convertir texto a mayúsculas en los encabezados */
+}
+
+td {
+    font-size: 1.1rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+tfoot {
+    background-color: #2c3e50;
+    color: #fff;
+    font-size: 1.1rem;
+}
